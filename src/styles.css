@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+  /* General Page Style */
+  html, body, main {
+    background: rgb(159,57,0);
+    background: linear-gradient(90deg, rgba(159,57,0,1) 0%, rgba(0,0,0,1) 50%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+
+    /* Mobile/Small VP size */
+    @media (max-width: 480px) { 
+      html, body, main {
+      background: rgb(159,57,0);
+      background: linear-gradient(rgba(159,57,0,1) 0%, rgba(0,0,0,1) 50%);
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+  }

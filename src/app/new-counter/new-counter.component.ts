@@ -8,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './new-counter.component.css'
 })
 export class NewCounterComponent {
+  counter: number = 0;
 
+  // Increment counter
+  increment() {
+    this.counter++;
+  }
+
+  // Decrement counter
+  decrement() {
+    this.counter--;
+  }
 }

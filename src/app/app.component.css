@@ -1,25 +1,7 @@
-  /* General Page Style */
-  html, body {
-    background: rgb(159,57,0);
-    background: linear-gradient(90deg, rgba(159,57,0,1) 0%, rgba(0,0,0,1) 50%);
-    background-repeat: no-repeat;
-    min-height: 100vh;
-  }
-  
-  .title {
-      margin: 4%;
-      padding: 30px;
-      background: rgba(0,0,0,0.5);
-      color: white;
-      border-radius: 30px;
-    }
-
-    /* Mobile/Small VP size */
-    @media (max-width: 480px) { 
-      html, body {
-      background: rgb(159,57,0);
-      background: linear-gradient(rgba(159,57,0,1) 0%, rgba(0,0,0,1) 50%);
-      background-repeat: no-repeat;
-      min-height: 100vh;
-    }
-  }
+.title {
+  margin: 4%;
+  padding: 30px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 30px;
+}
