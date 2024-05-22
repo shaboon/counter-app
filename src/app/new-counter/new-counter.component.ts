@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-new-counter',
@@ -11,6 +11,12 @@ export class NewCounterComponent {
   counter: number = 0;
   customText: string = 'Counter Title';
   counterDesc: string = 'This is a simple counter app';
+
+  constructor(private elementRef: ElementRef) {}
+
+  deleteDiv() {
+    this.elementRef.nativeElement.remove();
+  }
 
   addTitle() {
     const customText = prompt('Enter a new title for the counter');
