@@ -18,5 +18,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
       background: linear-gradient(rgba(159,57,0,1) 0%, rgba(0,0,0,1) 50%);
       background-repeat: no-repeat;
       min-height: 100vh;
+      .io-section {
+        min-width: 100%;
+      }
+      .info-section {
+        min-width: 100%;
+      }
     }
+
+    .io-section {
+      max-width: 40%;
+    }
+    
+    .info-section {
+      max-width: 60%;
+    }
+    
   }

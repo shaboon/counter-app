@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 @NgModule({
     declarations: [
-        // Remove the declaration of NewCounterComponent from here
     ],
     imports: [
-        BrowserModule
+        BrowserModule,
+        FormsModule
     ],
     providers: [],
-    bootstrap: [] // Remove NewCounterComponent from the bootstrap array
+    bootstrap: []
 })
 export class AppModule { }
 

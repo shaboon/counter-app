@@ -9,6 +9,21 @@ import { Component } from '@angular/core';
 })
 export class NewCounterComponent {
   counter: number = 0;
+  customText: string = 'Counter Title';
+  counterDesc: string = 'This is a simple counter app';
+
+  addTitle() {
+    const customText = prompt('Enter a new title for the counter');
+    const counterDesc = prompt('Enter a new description for the counter');
+
+    if (customText !== null) {
+      this.customText = customText;
+    }
+    if (counterDesc !== null) {
+      this.counterDesc = counterDesc;
+    }
+
+  }
 
   // Increment counter
   increment() {

@@ -1,0 +1,8 @@
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(92, 92, 92, 0.5);
+  padding: fill-available;
+  border-radius: 30px;
+}
