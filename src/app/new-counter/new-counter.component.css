@@ -6,3 +6,13 @@
   padding: fill-available;
   border-radius: 30px;
 }
+
+.delete {
+  background: transparent;
+  border: none;
+}
+
+.delete-img {
+  width: 30px;
+  height: 30px;
+}
