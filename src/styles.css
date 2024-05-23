@@ -20,19 +20,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
       background-repeat: no-repeat;
       min-height: 100vh;
     }
-    .io-section {
-      min-width: 100%;
-    }
-    .info-section {
-      min-width: 100%;
-    }
   }
   
       .io-section {
-        max-width: 40%;
+        max-width: 95%;
       }
-      
-      .info-section {
-        max-width: 55%;
-      }
-      
