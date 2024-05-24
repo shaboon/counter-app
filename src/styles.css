@@ -13,6 +13,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
+    overflow: hidden;
   }
 
   app-root {
@@ -34,6 +35,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     }
   }
   
-      .io-section {
+.io-section {
         max-width: 95%;
-      }
+}
